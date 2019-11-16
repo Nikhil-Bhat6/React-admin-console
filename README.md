@@ -1,3 +1,5 @@
+This project is deployed on Heroku and can be viewed [Here](https://tranquil-river-28401.herokuapp.com/)
+
 An example project for the [react-admin-firebase](https://github.com/benwinding/react-admin-firebase) package.
 
 # Get started
