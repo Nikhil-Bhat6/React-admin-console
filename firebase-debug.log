@@ -1,0 +1,106 @@
+[debug] [2019-09-09T13:53:40.022Z] ----------------------------------------------------------------------
+[debug] [2019-09-09T13:53:40.025Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2019-09-09T13:53:40.026Z] CLI Version:   7.3.1
+[debug] [2019-09-09T13:53:40.026Z] Platform:      linux
+[debug] [2019-09-09T13:53:40.026Z] Node Version:  v10.16.0
+[debug] [2019-09-09T13:53:40.026Z] Time:          Mon Sep 09 2019 19:23:40 GMT+0530 (India Standard Time)
+[debug] [2019-09-09T13:53:40.026Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-09T13:53:40.034Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-09T13:53:40.034Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/nikhil/hustle
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using test-react-admin-1854c.
+[debug] [2019-09-09T13:54:54.331Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-09-09T13:54:54.332Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-09-09T13:54:54.743Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-09T13:54:55.666Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/test-react-admin-1854c  
+ 
+[debug] [2019-09-09T13:54:56.539Z] <<< HTTP RESPONSE 403
+[debug] [2019-09-09T13:54:56.540Z] <<< HTTP RESPONSE BODY
+[debug] [2019-09-09T13:54:56.547Z] HTTP Error: 403, The caller does not have permission
+[debug] [2019-09-09T13:54:56.556Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/usr/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Request._callback (/usr/lib/node_modules/firebase-tools/lib/api.js:39:35)
+    at Request.self.callback (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at Request.<anonymous> (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at IncomingMessage.<anonymous> (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:286:20)
+[error] 
+[error] Error: Failed to get Firebase project test-react-admin-1854c. Please make sure the project exists and your account has permission to access it.
+[debug] [2019-09-09T13:55:20.453Z] ----------------------------------------------------------------------
+[debug] [2019-09-09T13:55:20.456Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2019-09-09T13:55:20.456Z] CLI Version:   7.3.1
+[debug] [2019-09-09T13:55:20.457Z] Platform:      linux
+[debug] [2019-09-09T13:55:20.457Z] Node Version:  v10.16.0
+[debug] [2019-09-09T13:55:20.457Z] Time:          Mon Sep 09 2019 19:25:20 GMT+0530 (India Standard Time)
+[debug] [2019-09-09T13:55:20.457Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-09T13:55:20.464Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-09T13:55:20.465Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/nikhil/hustle
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using test-react-admin-1854c.
+[debug] [2019-09-09T13:55:24.402Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/test-react-admin-1854c  
+ 
+[debug] [2019-09-09T13:55:25.038Z] <<< HTTP RESPONSE 403
+[debug] [2019-09-09T13:55:25.038Z] <<< HTTP RESPONSE BODY
+[debug] [2019-09-09T13:55:25.041Z] HTTP Error: 403, The caller does not have permission
+[debug] [2019-09-09T13:55:25.042Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/usr/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Request._callback (/usr/lib/node_modules/firebase-tools/lib/api.js:39:35)
+    at Request.self.callback (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at Request.<anonymous> (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:1161:10)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at IncomingMessage.<anonymous> (/usr/lib/node_modules/firebase-tools/node_modules/request/request.js:1083:12)
+    at Object.onceWrapper (events.js:286:20)
+[error] 
+[error] Error: Failed to get Firebase project test-react-admin-1854c. Please make sure the project exists and your account has permission to access it.
